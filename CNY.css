@@ -1,0 +1,73 @@
+h1{
+    color:#DB1453;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font: Arial;
+}
+.row::after{
+    display: table;
+    clear:both;
+    content:"";
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col_"]{
+    float: right;
+    padding: 15px
+}
+.col_1 {width: 8.33%;}
+.col_2 {width: 16.66%;}
+.col_3 {width: 25%;}
+.col_4 {width: 33.33%;}
+.col_5 {width: 41.66%;}
+.col_6 {width: 50%;}
+.col_7 {width: 58.33%;}
+.col_8 {width: 66.66%;}
+.col_9 {width: 75%;}
+.col_10 {width: 83.33%;}
+.col_11 {width: 91.66%;}
+.col_12 {width: 100%;}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 150px 150px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  #send{
+    height:60px;
+    font-size:25pt;
+  }
+
+  .aligncenter{
+      text-align: center;
+  }
